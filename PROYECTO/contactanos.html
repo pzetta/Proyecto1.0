@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="top-nav">
+        <a class="active" style="text-align: left;"><img src="img/logo.png" width="200" alt="Logo" href=""></a>
+        <a href="index.html">Home</a>
+        <a href="productos.html">Productos</a>
+        <a href="empresa.html">¿Quiénes Somos?</a>
+        <a href="contactanos.html">Contáctanos</a>
+    </div>
+
+    <form class="navbar-form navbar-left" role="search">
+        <div>
+            nombre: <input type="text" maxlength="10" minlength="2" required name="nombre">
+        </div>
+        <br>
+        Apellido Paterno: <input type="text" name="paterno"><br>
+        <br>
+        Edad: <input type="number" min=1 max=999 name="edad"><br>
+        <br>
+        Fecha de Nacimiento <input type="date" name="fechaNac"><br>
+        <br>
+
+        <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+    </form>
+</body>
+</html>

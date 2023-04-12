@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.top-nav{
+    background-color: #2a252d;
+    overflow: hidden;
+}
+
+.bg-img{
+    background-image: url('/img/logo.png');
+
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+
+.top-nav a{
+    color: #feb902;
+    display: block;
+    padding: 40px 16px;
+    margin: 0 0 0 150px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.top-nav a:hover:not(.active){
+    background-color: #574653;
+}
